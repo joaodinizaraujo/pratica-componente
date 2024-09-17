@@ -11,6 +11,7 @@ function App() {
           text={"PLANS+"}
           color={"red"}/>
           <Card
+          title={"FREE"}
           checkboxes={[
               [true, "PNG templates"],
               [false, "Figma responsive components"],
@@ -20,6 +21,7 @@ function App() {
           price={"0"}
           per={"Per month"}/>
           <Card
+          title={"PREMIUM"}
           checkboxes={[
               [true, "PNG templates"],
               [true, "Figma responsive components"],
@@ -29,6 +31,7 @@ function App() {
           price={"0"}
           per={"Per month"}/>
           <Card
+          title={"PRO"}
           checkboxes={[
               [true, "PNG templates"],
               [true, "Figma responsive components"],
@@ -42,6 +45,7 @@ function App() {
           text={"NEW MEMBER"}
           color={"green"}/>
           <Card
+          title={"FREE"}
           checkboxes={[
               [true, "PNG templates"],
               [false, "Figma responsive components"],
@@ -51,6 +55,7 @@ function App() {
           price={"0"}
           per={"Per month"}/>
           <Card
+          title={"PREMIUM"}
           checkboxes={[
               [true, "PNG templates"],
               [true, "Figma responsive components"],
@@ -60,6 +65,7 @@ function App() {
           price={"0"}
           per={"Per month"}/>
           <Card
+          title={"PRO"}
           checkboxes={[
               [true, "PNG templates"],
               [true, "Figma responsive components"],

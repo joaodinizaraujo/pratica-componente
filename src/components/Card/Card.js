@@ -1,12 +1,12 @@
 import styles from './Card.module.css'
 import Checkbox from "../Checkbox/Checkbox";
 
-function Card({checkboxes, price, per}) {
+function Card({title, checkboxes, price, per}) {
     return (
         <div className={styles.card}>
             <div className={styles.content}>
                 <div>
-                    <h1 className={styles.title}>FREE</h1>
+                    <h1 className={styles.title}>{title}</h1>
                 </div>
                 <div>
                     <ul className={styles.checkboxes}>

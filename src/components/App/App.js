@@ -28,7 +28,7 @@ function App() {
               [false, "Constant updates"],
               [false, "Custom templates"],
           ]}
-          price={"0"}
+          price={"99"}
           per={"Per month"}/>
           <Card
           title={"PRO"}
@@ -38,7 +38,7 @@ function App() {
               [true, "Constant updates"],
               [true, "Custom templates"],
           ]}
-          price={"0"}
+          price={"199"}
           per={"Per month"}/>
 
           <Title
@@ -62,7 +62,7 @@ function App() {
               [false, "Constant updates"],
               [false, "Custom templates"],
           ]}
-          price={"0"}
+          price={"99"}
           per={"Per month"}/>
           <Card
           title={"PRO"}
@@ -72,7 +72,7 @@ function App() {
               [true, "Constant updates"],
               [true, "Custom templates"],
           ]}
-          price={"0"}
+          price={"199"}
           per={"Per month"}/>
       </div>
   </>
